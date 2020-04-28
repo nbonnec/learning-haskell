@@ -1,0 +1,2 @@
+-- module SampFunctions (getClass, doubleEvenNumbers) where
+-- import SampFunctions
