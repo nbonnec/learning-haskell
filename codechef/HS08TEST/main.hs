@@ -9,8 +9,6 @@ withdraw amount balance
     | otherwise = balance - amount_f - 0.5
     where amount_f = fromIntegral amount
 
-formatFloatN floatNum numOfDecimals = showFFloat (Just numOfDecimals) floatNum ""
-
 main = do
 
     input <- getLine
